@@ -116,3 +116,9 @@ class Spaceship
     // Deze zijn voor de volgende les en vanwege de public properties nog niet nodig.
 
 }
+// Afgeleide class van Spaceship
+class FighterShip extends Spaceship
+{
+    // Extra eigenschap voor het FighterShip
+    public int $specialDamage = 20; 
+}
